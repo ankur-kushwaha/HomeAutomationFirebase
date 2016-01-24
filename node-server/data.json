@@ -1,0 +1,12 @@
+ {
+		"switches": [
+			"17": {
+				"state": "0",
+				"name": "bulb"
+			},
+			"18": {
+				"state": "1",
+				"name": "fan"
+			}
+		]
+	}
