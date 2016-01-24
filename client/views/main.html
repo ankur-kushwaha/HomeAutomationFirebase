@@ -1,0 +1,18 @@
+<div class="row marketing">
+    <ul class="list-group">
+        <li ng-repeat="(key, datum) in main.switches" class="list-group-item clearfix">
+          <span>{{datum.name}}</span>
+        
+          <span class="pull-right">
+
+
+             <div class="btn-group">
+        <label class="btn btn-success" ng-model="datum.state" uib-btn-radio="1" ng-change="main.switches.$save()">ON</label>
+        <label ng-change="main.switches.$save()" class="btn btn-success" ng-model="datum.state" uib-btn-radio="0" >OFF</label>
+        
+    </div>
+
+
+          </span>
+        </li>
+</div>
