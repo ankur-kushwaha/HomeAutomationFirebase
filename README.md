@@ -1,3 +1,3 @@
 # HomeAutomationFirebase
-Firebase home Automation
+Firebase home Automations
 
